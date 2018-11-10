@@ -1,0 +1,35 @@
+/*For Mobile*/
+@media only screen and (max-width: 640px) {
+    nav {
+        position: relative;
+        padding: 70px;
+    }
+    .namediv{
+        width:100%;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .linkdiv{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 100px;
+        left: 0;
+    }
+    .maincontent{
+        margin:15px;
+        width: 100%;
+    }
+} 
+
+/*For Tablets*/
+@media only screen and (max-width: 768px){
+    
+}
+
+/*For PC*/
+@media only screen and (min-width: 769px){
+    
+}
