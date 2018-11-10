@@ -43,7 +43,7 @@ footer{
 }
 
 #maincontent{
-    width: 960px;
+    /* width: 960px; */
     background: #ffffff;
     border: #dddddd solid;
     margin: 35px auto;
@@ -53,7 +53,7 @@ footer{
 
 #mepic {
     float: left;
-    margin: 10px 25px 15px 15px;
+    /* margin: 10px 25px 15px 15px; */
 }
 
 .bigbox{

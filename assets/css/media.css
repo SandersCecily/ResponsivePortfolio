@@ -1,3 +1,30 @@
+/*For PC*/
+@media only screen and (min-width: 769px){
+    .maincontent{
+        width: 960px;
+
+    }
+    #mepic{
+        margin: 10px 25px 15px 15px; 
+    }
+    .namediv{
+        width: 275px;
+    }
+}
+
+/*For Tablets*/
+@media only screen and (max-width: 768px){
+    .namediv{
+        width: 275px;
+    }
+    #mepic{
+        margin: 10px 25px 15px 15px; 
+    }
+    .bigbox{
+        width: 600px;
+    }
+}
+
 /*For Mobile*/
 @media only screen and (max-width: 640px) {
     nav {
@@ -18,18 +45,21 @@
         top: 100px;
         left: 0;
     }
+    img{
+        position: static;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 15px;
+    }
     .maincontent{
-        margin:15px;
-        width: 100%;
+        height: 750px;
+        margin-left:15px;
+        margin-right: 15px;
+        width: 600px;
+        padding: 5px;
+        overflow: visible;
+    }
+    .bigbox{
+        width: 500px;
     }
 } 
-
-/*For Tablets*/
-@media only screen and (max-width: 768px){
-    
-}
-
-/*For PC*/
-@media only screen and (min-width: 769px){
-    
-}
